@@ -2,6 +2,7 @@
   "name": "shahbaz-portfolio",
   "version": "0.1.0",
   "private": true,
+   "homepage": "https://ShahbazAhmad08.github.io/my-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
@@ -46,6 +47,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "https://ShahbazAhmad08.github.io/portfolio"
+  }
+ 
 }
