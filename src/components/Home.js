@@ -9,11 +9,11 @@ const Home = () => {
         <div className='left-side'>
           <h2>Welcome to my Portfolio!</h2>
           <p>
-            I am Shahbaz Ahmad, a Full-Stack Developer
-          </p>
+    I'm Shahbaz Ahmad, and I specialize in Full-Stack Development. I build websites and applications using both front-end and back-end technologies. I focus on making user-friendly designs and reliable backend systems. Check out my portfolio to see what I've created!
+</p>
         </div>
         <div className='right-side'>
-          <img src={img} alt='my-uimg' className='img'/>
+          <img src={img} alt='my-img' className='img'/>
         </div>
       </section>
   );

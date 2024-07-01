@@ -1,6 +1,6 @@
 /* About.css */
 .about {
-  height: 610px;
+  min-height: 100vh;
   padding: 4rem;
   text-align: center;
   background-color: #232526;
@@ -28,7 +28,7 @@
 
 @media (max-width: 750px) {
   .about {
-    padding-top: 17vh;
+    padding-top: 18vh;
   }
   .about h2 {
     font-size: 2rem;

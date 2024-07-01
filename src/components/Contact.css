@@ -1,6 +1,6 @@
 /* Contact.css */
 .contact-form-container {
-  height: 610px;
+  min-height: 100vh;
   padding: 4rem;
   text-align: center;
   background-color: #232526;

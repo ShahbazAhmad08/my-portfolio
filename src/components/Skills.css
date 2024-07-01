@@ -1,6 +1,6 @@
 /* Skills.css */
 .skills {
-  height: 610px;
+  min-height: 100vh;
   text-align: center;
   background-color: #232526;
   border-radius: 10px;

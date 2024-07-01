@@ -14,16 +14,24 @@
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(2px);
 }
+.logo a {
+  text-decoration: none;
+  color: #3a71a7;
+  font-weight: 600;
+  padding: 2px 4px;
+  position: relative;
+  overflow: hidden;
+}
 .nav-toggle {
   position: absolute;
-  top: 10px;
+  top: 1vw;
   right: 10px;
   border: none;
   outline: none;
   background-color: transparent;
   color: #fdfeff;
   margin-top: 5px;
-  font-size: 3vw;
+  font-size: 2.5vw;
   display: none;
 }
 
@@ -105,14 +113,12 @@
   .nav-visible {
     flex-direction: row;
     position: absolute;
-    top: 10vw;
+    top: calc(21.4vh - 100%);
     left: 0vw;
     flex-wrap: wrap;
-    background-color: rgb(2, 2, 2);
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.285);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(2px);
-    background-color: rgba(0, 0, 0, 0.285);
   }
 
   .nav-links li {
@@ -135,6 +141,6 @@
   .nav-toggle {
     display: block;
     cursor: pointer;
-    margin-top: 0.5rem;
+    font-size: 3vw;
   }
 }
