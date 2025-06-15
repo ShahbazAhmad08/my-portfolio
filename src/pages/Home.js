@@ -15,7 +15,7 @@ const Home = () => {
         </p>
       </div>
       <div className="right-side">
-        <img src="my-portfolio/my-img.jpg" alt="my-img" className="img" />
+        <img src="my-img.jpg" alt="my-img" className="img" />
       </div>
       {/* <ParticleBackground/> */}
     </section>
