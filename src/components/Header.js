@@ -13,26 +13,26 @@ const Header = () => {
   };
   return (
     <header className="header">
-      <h1 className="logo"> <Link to="my-portfolio/">Shahbaz Ahmad</Link></h1>
+      <h1 className="logo"> <Link to="/">Shahbaz Ahmad</Link></h1>
       <button className="nav-toggle" onClick={toggleNav}>
         <FontAwesomeIcon icon={isNavOpen ? faTimes : faBars} size="2x" />
       </button>
       <nav>
       <ul className={`nav-links ${isNavOpen ? 'nav-visible' : 'nav-hidden'}`}>
           <li>
-            <Link to="my-portfolio/">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="my-portfolio/about">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="my-portfolio/skills">Skills</Link>
+            <Link to="/skills">Skills</Link>
           </li>
           <li>
-            <Link to="my-portfolio/projects">Projects</Link>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <Link to="my-portfolio/contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

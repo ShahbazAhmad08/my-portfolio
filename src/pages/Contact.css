@@ -3,16 +3,19 @@
   min-height: 100vh;
   padding: 4rem;
   text-align: center;
-  background-color: #232526;
+  background-color: #23252600;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 10vh;
+  z-index: 5;
 }
 .contact-form-container h1 {
   cursor: pointer;
+  font-size: 40px;
 }
 
 .form-group {

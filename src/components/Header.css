@@ -91,24 +91,23 @@
 
 .social-icons a:hover:nth-child(even) {
   color: #ec0606;
-  border: 1px solid wheat;
 }
 .social-icons a:hover:nth-child(odd) {
   color: #230deb;
-  border: 1px solid rgb(249, 249, 249);
 }
 
 @media (max-width: 750px) {
   .header {
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: start;
+    align-items: center;
     position: fixed;
     height: 10.5vh;
   }
 
   .header .logo {
     margin-top: 0.5rem;
+    font-size: 22px;
   }
   .nav-visible {
     flex-direction: row;

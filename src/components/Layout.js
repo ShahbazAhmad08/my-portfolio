@@ -1,15 +1,20 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
-import './Layout.css'
-const Layout = ({ children}) => {
-  return (
-    <div className='layout'>
-      <Header/>
-      {children}
-      <Footer/>
-    </div>
-  )
-}
+import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import "./Layout.css";
+import ParticleBackground from "../pages/ParticleBackground";
 
-export default Layout
+const Layout = ({ children }) => {
+  return (
+    <ParticleBackground>
+      <div className="layout">
+      <Header />
+      {children}
+      <Footer />
+    </div>
+    </ParticleBackground>
+    
+  );
+};
+
+export default Layout;

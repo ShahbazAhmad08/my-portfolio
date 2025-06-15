@@ -1,26 +1,29 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Skills from './pages/Skills';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 import Layout from './components/Layout';
+import ParticleBackground from'./pages/ParticleBackground'
+
 import './components/Style.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <Layout>
         <Routes>
-          <Route exact path="my-portfolio/" element={<Home />} />
-          <Route path="my-portfolio/about" element={<About />} />
-          <Route path="my-portfolio/skills" element={<Skills />} />
-          <Route path="my-portfolio/projects" element={<Projects />} />
-          <Route path="my-portfolio/contact" element={<Contact />} />
+         <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
     </Router>
+    
   );
 };
 

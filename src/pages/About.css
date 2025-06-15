@@ -3,7 +3,7 @@
   min-height: 100vh;
   padding: 4rem;
   text-align: center;
-  background-color: #232526;
+  background-color: #23252600;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
@@ -11,6 +11,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 10vh;
+  z-index: 5;
 }
 
 .about h2 {
@@ -20,10 +22,10 @@
 }
 
 .about p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   max-width: 600px;
   margin: 0 auto;
-  cursor: not-allowed;
+  cursor:pointer;
 }
 
 @media (max-width: 750px) {

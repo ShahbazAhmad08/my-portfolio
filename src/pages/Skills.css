@@ -1,8 +1,8 @@
 /* Skills.css */
 .skills {
-  min-height: 100vh;
+  max-height: 100vh;
   text-align: center;
-  background-color: #232526;
+  background-color: #23252600;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
@@ -10,6 +10,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 10vh;
+  z-index: 5;
 }
 
 .skills h2 {

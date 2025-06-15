@@ -2,7 +2,7 @@
   "name": "shahbaz-portfolio",
   "version": "0.1.0",
   "private": true,
-   "homepage": "https://ShahbazAhmad08.github.io/my-portfolio",
+  "homepage": "https://ShahbazAhmad08.github.io/my-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
@@ -11,6 +11,8 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@tsparticles/all": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
     "bootstrap": "^5.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -46,7 +48,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
   }
- 
 }
