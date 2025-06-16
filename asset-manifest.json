@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.155c8730.css",
-    "main.js": "/my-portfolio/static/js/main.c33b6116.js",
+    "main.css": "/my-portfolio/static/css/main.92353546.css",
+    "main.js": "/my-portfolio/static/js/main.6190b3a7.js",
     "static/js/453.dadeb1fd.chunk.js": "/my-portfolio/static/js/453.dadeb1fd.chunk.js",
+    "static/media/my-img.jpg": "/my-portfolio/static/media/my-img.e7b40f09120b389a969d.jpg",
+    "static/media/wonder-lust-image.png": "/my-portfolio/static/media/wonder-lust-image.6d01981fabdb606509ae.png",
+    "static/media/food-delivery-image.PNG": "/my-portfolio/static/media/food-delivery-image.95f48868bd59125044ee.PNG",
+    "static/media/auth-image.png": "/my-portfolio/static/media/auth-image.83c7ff8f1ecd18039aa5.png",
     "index.html": "/my-portfolio/index.html",
-    "main.155c8730.css.map": "/my-portfolio/static/css/main.155c8730.css.map",
-    "main.c33b6116.js.map": "/my-portfolio/static/js/main.c33b6116.js.map",
+    "main.92353546.css.map": "/my-portfolio/static/css/main.92353546.css.map",
+    "main.6190b3a7.js.map": "/my-portfolio/static/js/main.6190b3a7.js.map",
     "453.dadeb1fd.chunk.js.map": "/my-portfolio/static/js/453.dadeb1fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.155c8730.css",
-    "static/js/main.c33b6116.js"
+    "static/css/main.92353546.css",
+    "static/js/main.6190b3a7.js"
   ]
 }
