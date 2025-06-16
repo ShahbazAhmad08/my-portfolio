@@ -1,6 +1,6 @@
 // src/components/Home.js
-import React from "react";
 import "./Home.css";
+import img from "../assets/my-img.jpg";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
         </p>
       </div>
       <div className="right-side">
-        <img src="my-img.jpg" alt="my-img" className="img" />
+        <img src={img} alt="my-img" className="img" />
       </div>
       {/* <ParticleBackground/> */}
     </section>

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Projects.css";
-
+import authImage from "../assets/auth-image.png";
+import foodDeliveryImage from "../assets/food-delivery-image.PNG";
+import wonderLustImage from "../assets/wonder-lust-image.png";
 const Projects = () => {
   return (
     <div className="projects-container" id="Projects-section">
@@ -27,7 +29,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-image">
-          <img src="auth-image.png" alt="User Authentication App" />
+          <img src={authImage} alt="User Authentication App" />
         </div>
       </div>
 
@@ -52,7 +54,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-image">
-          <img src="food-delivery-image.png" alt="Food Delivery Website" />
+          <img src={foodDeliveryImage} alt="Food Delivery Website" />
         </div>
       </div>
 
@@ -67,7 +69,7 @@ const Projects = () => {
           <p>Stay tuned for updates!</p>
         </div>
         <div className="project-image">
-          <img src="wonder-lust-image.png" alt="Wonderlust Airbnb Clone" />
+          <img src={wonderLustImage} alt="Wonderlust Airbnb Clone" />
         </div>
       </div>
     </div>
